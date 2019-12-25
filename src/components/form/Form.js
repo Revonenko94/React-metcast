@@ -12,14 +12,7 @@ class Form extends React.Component{
         )
     }
 }
-// const Form = props => (
-//         <div className="weather-form">
-//             <form onSubmit={props.methodWeather}>
-//                 <input type="text" name="city" placeholder="Введите название города"/>
-//                 <button type="button">Узнать погоду</button>
-//             </form>
-//         </div>
-//     )
+
 
 
 export default Form
