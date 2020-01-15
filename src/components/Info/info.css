@@ -1,0 +1,17 @@
+.infoWeather {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 780px) {
+    .infoWeather h1 {
+        font-size: 30px;
+    }
+    .infoWeather h2  {
+        font-size: 20px;
+    }
+
+}

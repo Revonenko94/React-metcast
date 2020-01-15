@@ -1,7 +1,8 @@
 import React from 'react'
+import "./info.css"
 const Info = () =>{
     return (
-        <div className="info-weather">
+        <div className="infoWeather">
            <h1>
                Первая приложуха Юрца на React
            </h1>

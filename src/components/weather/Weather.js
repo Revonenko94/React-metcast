@@ -1,8 +1,9 @@
 import React from 'react'
+import './weather.css'
 
 const Weather = props => {
     return(
-        <div className="weather-result">
+        <div className="weatherResult">
             {props.city &&
             <div>
                 <p>Ваш город: {props.city} {props.country}</p>

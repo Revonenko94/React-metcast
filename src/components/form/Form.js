@@ -6,7 +6,7 @@ class Form extends React.Component{
             <div className="weather-form">
                 <form onSubmit={this.props.methodWeather}>
                     <input type="text" name="city" placeholder="Введите название города"/>
-                    <button>Узнать погоду</button>
+                    <button className="btn btn-secondary">Узнать погоду</button>
                 </form>
             </div>
         )

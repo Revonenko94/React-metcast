@@ -2,6 +2,7 @@ import React from 'react';
 import Info from "../../components/Info/Info";
 import Weather from "../../components/weather/Weather";
 import Form from "../../components/form/Form";
+import "./body.css"
 
 
 const API_WEATHER = "5201082a576111f7618c4445ec41504c";
@@ -34,11 +35,11 @@ class Body extends React.Component {
     };
 
     render() {
-        return <div className="body-weather">
+        return <div className="bodyWeather">
             <Info />
-            <Weather
+            < Weather
                 temp = {this.state.temp}
-                city = {this.state. city}
+                city = {this.state.city}
                 country = {this.state.country}
                 pressure = {this.state.pressure}
                 wind = {this.state.wind}
