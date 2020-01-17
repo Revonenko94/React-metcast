@@ -1,0 +1,26 @@
+.weatherForm{
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+
+.weatherForm form{
+    margin-top: 15px;
+}
+
+.weatherForm form button{
+    margin: 0 auto;
+    display: block;
+    background: #b012d6;
+}
+
+.weatherForm form button:hover {
+    background: #d638b4;
+}
+.weatherForm form button:focus {
+    background: #d638b4;
+}
+
+.weatherForm form input{
+    min-width: 300px;
+}

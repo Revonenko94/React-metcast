@@ -1,3 +1,26 @@
 .weatherResult{
+   margin: 0 auto;
+   margin-top: 40px;
    color: white;
+   background: linear-gradient(0deg, rgba(195,34,159,0.7) 0%, rgba(116,0,150,0.7) 32%, rgba(83,38,131,0.7) 100%);
+   justify-content: space-around;
+}
+
+.weatherResult .nameCity{
+   margin: 0;
+   text-align: center;
+   padding-top: 15px;
+}
+.weatherResult .card {
+   margin-top: 20px;
+   margin-bottom: 30px;
+   background: rgba(60, 15, 118, 0.5);
+
+}
+.weatherResult .card img {
+   height: 50px;
+   width: 50px;
+}
+.weatherResult hr{
+   background-color: white;
 }

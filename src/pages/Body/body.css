@@ -1,16 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
- .bodyWeather{
-     font-family: 'Open Sans', sans-serif;
-     width: 100vw;
-     height: 100vh;
-     background-image: url("background.jpg");
-     background-repeat: no-repeat;
-     background-size: 100%
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+.bodyWeather{
+     font-family:'Rubik', sans-serif;
  }
-@media only screen and (min-width : 320px) and (max-width : 780px) {
-    .bodyWeather{
-        background-size: cover;
-    }
-
-
-}
